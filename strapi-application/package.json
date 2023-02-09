@@ -9,11 +9,11 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
-  "devDependencies": {},
   "dependencies": {
-    "@strapi/strapi": "4.6.0",
-    "@strapi/plugin-users-permissions": "4.6.0",
     "@strapi/plugin-i18n": "4.6.0",
+    "@strapi/plugin-users-permissions": "4.6.0",
+    "@strapi/provider-email-sendmail": "^4.6.1",
+    "@strapi/strapi": "4.6.0",
     "pg": "8.6.0"
   },
   "author": {
