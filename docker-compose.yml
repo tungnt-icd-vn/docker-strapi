@@ -35,10 +35,9 @@ services:
 
   strapiDB:
     container_name: strapiDB
-    platform: linux/amd64 #for platform error on Apple M1 chips
     restart: always
     env_file: .env
-    image: postgres:12.0-alpine
+    image: postgres
     environment:
       POSTGRES_USER: ${DATABASE_USERNAME}
       POSTGRES_PASSWORD: ${DATABASE_PASSWORD}
