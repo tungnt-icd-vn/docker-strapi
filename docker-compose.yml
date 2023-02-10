@@ -53,6 +53,7 @@ services:
 
 volumes:
   strapi-data:
+    driver: local
 networks:
   strapi:
     name: Strapi
